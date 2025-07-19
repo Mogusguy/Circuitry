@@ -12,7 +12,14 @@ public class ModItems {
     public static final DeferredItem<Item> ENDERITE = ITEMS.register("enderite",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> E = ITEMS.register("e",
+            () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> PEN = ITEMS.register("pen",
+            () -> new Item(new Item.Properties()));// Adds a pen
+
+    public static final DeferredItem<Item> NULL = ITEMS.register("null",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

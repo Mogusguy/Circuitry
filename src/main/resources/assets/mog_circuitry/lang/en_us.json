@@ -1,3 +1,8 @@
 {
-  "item.mog_circuitry.enderite": "Enderite"
+  "item.mog_circuitry.enderite": "Enderite",
+  "item.mog_circuitry.e": "E",
+  "item.mog_circuitry.pen": "Pen",
+  "item.mog_circuitry.null": "Null",
+
+  "block.mog_circuitry.enderite_block": "Enderite Block"
 }

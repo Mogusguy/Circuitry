@@ -1,6 +1,7 @@
 package net.mogusguy.circuitry;
 
 import net.minecraft.world.item.CreativeModeTabs;
+import net.mogusguy.circuitry.block.ModBlocks;
 import net.mogusguy.circuitry.item.ModItems;
 import org.slf4j.Logger;
 
@@ -37,6 +38,7 @@ public class Circuitry {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,7 +54,18 @@ public class Circuitry {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.ENDERITE);
+            event.accept(ModItems.E);
         }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ENDERITE_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.PEN);
+        }
+        if(event.getTabKey() == CreativeModeTabs.OP_BLOCKS) {
+            event.accept(ModItems.NULL);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
