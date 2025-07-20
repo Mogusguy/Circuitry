@@ -4,5 +4,8 @@
   "item.mog_circuitry.pen": "Pen",
   "item.mog_circuitry.null": "Null",
 
-  "block.mog_circuitry.enderite_block": "Enderite Block"
+  "block.mog_circuitry.enderite_block": "Enderite Block",
+
+  "creativetab.mog_circuitry.enderite_items": "Enderite Items",
+  "creativetab.mog_circuitry.enderite_blocks": "Enderite Blocks"
 }

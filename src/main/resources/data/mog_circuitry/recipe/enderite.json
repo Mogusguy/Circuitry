@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mog_circuitry:enderite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "mog_circuitry:enderite"
+  }
+}

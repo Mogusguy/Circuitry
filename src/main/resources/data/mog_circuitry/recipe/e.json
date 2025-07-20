@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "pattern": [
+    "DDD",
+    "DD ",
+    "DDD "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mog_circuitry:e"
+  }
+}
